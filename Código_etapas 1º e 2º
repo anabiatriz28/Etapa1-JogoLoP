@@ -1,0 +1,45 @@
+/*
+Equipe:
+Aluna:                                -Subturma: 1D(Líder)
+Aluna:                                -Subturma: 1D(Líder)
+*/
+
+
+var x = 350;
+var y = 300;
+
+function setup(){ 
+	createCanvas(400,400); //criar uma area de desenho 400x400
+ }
+
+ function draw(){
+ 	background(0); //cor de fundo (0 a 255) - 0 preto, 255 - branco
+ 	square(25,25,55); //criar um quadrado
+ 	fill(255); //preencher
+ 	ellipse(x,y,30,30); // criar um círculo
+
+ 	if(keyIsDown(RIGHT_ARROW)){
+ 		x = x + 6;
+ 	}
+ 	if(keyIsDown(LEFT_ARROW)){
+ 		x = x - 6;
+ 	}
+ 	if(keyIsDown(UP_ARROW)){
+ 		y = y + 6;
+ 	}
+ 	if(keyIsDown(DOWN_ARROW)){
+ 		y = y + 6;
+ 	}
+ 	if(x < 0){
+ 		x = 400;
+ 	}
+ 	if(y < 0){
+ 		y = 400;
+ 	}
+ 	if(x > 400){
+ 		x = 0;
+ 	}
+ 	if(y > 400){
+ 		y = 0;
+ 	}
+ }

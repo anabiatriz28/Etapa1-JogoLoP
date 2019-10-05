@@ -2,6 +2,7 @@
 Equipe:
 Aluna: Ana Biatriz Guedes do Nascimento.   -Subturma: 1D
 Aluna: Mariana Brito Azevedo.              -Subturma: 1D(Líder)
+Etapas: 1º e 2º
 */
 
 var x = 300, y = 350; //objeto

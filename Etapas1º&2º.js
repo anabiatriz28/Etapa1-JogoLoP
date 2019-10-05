@@ -1,7 +1,7 @@
 /*
 Equipe:
-Aluna: Ana Biatriz Guedes do Nascimento.   -Subturma: 1D
-Aluna: Mariana Brito Azevedo.              -Subturma: 1D(Líder)
+Aluna: Ana Biatriz Guedes do Nascimento.   -Subturma: 1C
+Aluna: Mariana Brito Azevedo.              -Subturma: 1C(Líder)
 Etapas: 1º e 2º
 */
 

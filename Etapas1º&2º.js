@@ -1,7 +1,7 @@
 /*
 Equipe:
-Aluna: Ana Biatriz Guedes do Nascimento.-Subturma: 1D
-Aluna: Mariana Brito Azevedo.           -Subturma: 1D(Líder)
+Aluna: Ana Biatriz Guedes do Nascimento.   -Subturma: 1D
+Aluna: Mariana Brito Azevedo.              -Subturma: 1D(Líder)
 */
 
 var x = 300, y = 350; //objeto
@@ -19,7 +19,7 @@ function draw() {
 
   fill(255); //preencher
   
-  ellipse(x, y, 30,30); // criar uma elipse (posição-coordenada x, posição-coordenada y, largura, altura) - como a largura (30) e a altura (30) são iguais, a elipse vai corresponder a um círculo 
+  ellipse(x, y, 30, 30); // criar uma elipse (posição-coordenada x, posição-coordenada y, largura, altura) - como a largura (30) e a altura (30) são iguais, a elipse vai corresponder a um círculo 
   
 
   //A função keyIsDown () serve para verificar se determinada tecla está sendo pressionada -movimentação do objeto (elipse) 

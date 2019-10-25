@@ -1,3 +1,10 @@
+/*
+Equipe:
+Aluna: Ana Biatriz Guedes do Nascimento.   -Subturma: 1C
+Aluna: Mariana Brito Azevedo.              -Subturma: 1C(Líder)
+Etapas: 5º e 6º
+*/
+
 var x = 300, y = 350; //objeto
 var x1 = 25, y1 = 25; //obstáculo
 var x2 = 100, y2 = 25; //obstáculo

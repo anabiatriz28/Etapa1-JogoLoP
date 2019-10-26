@@ -44,7 +44,7 @@ function draw() {
   movimentoObstaculos();
   disparo();
   colisao();
-  //acertarAlvo();
+  acertarAlvo();
   
   function movimentoObjeto(){
     if(keyIsDown(RIGHT_ARROW)){ 
@@ -133,15 +133,21 @@ function draw() {
       vidas = 0;
     }
   }
-  /*function acertarAlvo(){
+  function acertarAlvo(){ //funcão responsável pela colisão dp disparo com os obstáculos
     if(dist(xd, yd, x1, y1) < raiod + raioo){
-      pontos = pontos + 100;
+      x1 = random(1000);
+      y1 = -random(320);
+      pontos = pontos + 30;
     }
     if(dist(xd, yd, x2, y2) < raiod + raioo){
-      pontos = pontos + 100;
+      x2 = random(1000);
+      y2 = -random(320);
+      pontos = pontos + 30;
     }
     if(dist(xd, yd, x3, y3) < raiod + raioo){
-      pontos = pontos + 100;
+      x3 = random(1000);
+      y3 = -random(320);
+      pontos = pontos + 30;
     }
-  }*/
+  }
 }
